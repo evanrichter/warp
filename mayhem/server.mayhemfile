@@ -1,0 +1,8 @@
+project: warp
+target: server
+
+cmds:
+  - cmd: /server
+    network:
+      url: tcp://127.0.0.1:3030
+      client: false
